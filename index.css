@@ -1,36 +1,60 @@
 .myself {
 text-align: center;
-font-size: 30px;
+font-size: 50px;
 font-weight: bold;
-margin-top: 30px;
-margin-bottom: 250px;
+padding-top: 20px;
+padding-bottom: 60px;
+}
+
+.job-photo{
+height: 180px;
+width: 140px;
+text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+.links{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+gap: 16px;
+}
+
+.links img{
+width: 32px;
+height: 32px;
+cursor: pointer;
+margin-top: 0%;
+margin-bottom: 120px;
 }
 
 .wrapper {
-display: flex;          /* 讓 .left .right 變成左右並排 */
+display: flex;
 align-items: flex-start;
 justify-content: space-between;
 max-width: 1200px;
-margin: 0 auto 60px;    /* 置中 + 底部留空 */
-gap: 40px;              /* 左右兩欄中間的間距 */
+margin: 0 auto 60px;
+gap: 40px;
 }
 
 
 .left {
-flex: 2;                /* 左欄比較寬 */
-padding: 20px;
+flex: 1;
 margin: 0%;
 box-sizing: border-box;
-background-color: rgb(107, 220, 255);
+background-color: rgb(183, 237, 254);
 }
 
 
 .right {
-flex: 1;                /* 右欄比較窄 */
-padding: 20px;
+flex: 1;
+padding-left: 10px;
+padding-right: 0px;
 margin: 0%;
 box-sizing: border-box;
-border-left: 2px solid #ccc; /* 視覺上分出左右 */
+border-left: 2px solid #232323;
+background-color: rgb(194, 189, 189);
 }
 
 .own1{
